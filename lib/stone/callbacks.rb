@@ -6,8 +6,8 @@ module Stone
       :after_save,
       :before_create,
       :after_create,
-      :before_destroy,
-      :after_destroy
+      :before_delete,
+      :after_delete
       ]
     
     class << self
